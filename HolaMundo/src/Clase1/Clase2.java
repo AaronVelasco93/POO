@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package holamundo;
+package Clase1;
 
 /**
  *
@@ -35,7 +35,9 @@ public class Clase2 {
                
         System.out.println("El resultado de la suma de: "+iNumero1+"+"+iNumero2+"="+iResultado);
         
-     
+        
+        
+        
                 
         
         
