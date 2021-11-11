@@ -28,8 +28,8 @@ public class Funciones {
 
         variosSaludos(-1);//mando a llamar mi funcion
        
-       // saludar();
-       //despedida();
+        saludar();
+       despedida();
     }//terminal main
       
     //DECLARANDO FUNCIONES
