@@ -5,6 +5,8 @@
  */
 package Funciones2;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Aaron
@@ -37,7 +39,9 @@ public class Validacion {
             return;//termino de ejecucion
         }
         //si los datos no son validos se ejecuta esta linea
-        System.out.println(error(usuario));
+        //System.out.println(error(usuario));
+        
+        JOptionPane.showMessageDialog(null, error(usuario));
         
 
     }
@@ -46,9 +50,8 @@ public class Validacion {
     public static void main(String[] args) {
         
         
-        String usuario= "HuronMarron";
-        String pass="123ico";
-        
+        String usuario= JOptionPane.showInputDialog("Ingresa tu user");
+        String pass=JOptionPane.showInputDialog("Ingresa tu pass");
         
         //funciones verificar
         
