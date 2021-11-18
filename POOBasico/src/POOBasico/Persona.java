@@ -13,9 +13,27 @@ public class Persona {
     
     //definimos nuestros atributos
     String nombre;
-    int edad;
     double estatura;
-       
+    int edad;
+    
+    
+    //Constructor 1
+    Persona(){
+    }
+    
+    //Contructor 2
+    Persona(String nombre, double estatura, int edad){
+        this.nombre=nombre;
+        this.estatura=estatura;
+        this.edad=edad;
+    }
+    
+    //Constrcutor 3
+    Persona(String nombre){
+        this.nombre=nombre;
+        estatura=0;
+        edad=0;
+    }
     
     //Metodo1
     void saludar (){

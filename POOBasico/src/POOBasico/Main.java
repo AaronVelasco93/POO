@@ -22,7 +22,7 @@ public class Main {
         ciudadano1.nombre="Aaron Velasco";
         ciudadano1.edad=27;
         ciudadano1.estatura=1.76;
-        ciudadano1.saludar();
+        
         
         
         ciudadano2.nombre="Henry";
@@ -34,6 +34,13 @@ public class Main {
         ciudadano3.edad=27;
         ciudadano3.estatura=1.80;
         ciudadano3.saludar();
+        
+        
+        
+   
+        
+        
+        System.out.println(ciudadano1.edad);
                 
         
         
