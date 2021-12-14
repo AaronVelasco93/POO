@@ -34,7 +34,12 @@ public class Empleado {
     public String getDimeNombre() {//getter
         return "El nombre es: "+nombre;
     }
-
+    
+    public double dameSueldo(){
+        return sueldo;
+    }
+    
+    
     public String getDimeSueldo() { //getter
         return "El suedo es de: "+sueldo;
     }
